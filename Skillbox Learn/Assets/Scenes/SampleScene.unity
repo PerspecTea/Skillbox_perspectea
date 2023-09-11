@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 70369630}
   - component: {fileID: 70369629}
   m_Layer: 5
-  m_Name: 2CharacterText
+  m_Name: 2CharacterButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -369,7 +369,7 @@ GameObject:
   - component: {fileID: 117046722}
   - component: {fileID: 117046721}
   m_Layer: 5
-  m_Name: 3CharacterText
+  m_Name: 3CharacterButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -812,7 +812,7 @@ GameObject:
   - component: {fileID: 274036607}
   - component: {fileID: 274036606}
   m_Layer: 5
-  m_Name: BackButtonText
+  m_Name: AuthorBackButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1333,7 +1333,7 @@ GameObject:
   - component: {fileID: 476066593}
   - component: {fileID: 476066592}
   m_Layer: 5
-  m_Name: 1Button
+  m_Name: 1CharacterButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1660,7 +1660,7 @@ GameObject:
   - component: {fileID: 658656558}
   - component: {fileID: 658656557}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: NewGameButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1740,7 +1740,7 @@ GameObject:
   - component: {fileID: 800554607}
   - component: {fileID: 800554606}
   m_Layer: 5
-  m_Name: AuthorText
+  m_Name: AuthorButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1820,7 +1820,7 @@ GameObject:
   - component: {fileID: 864014789}
   - component: {fileID: 864014788}
   m_Layer: 5
-  m_Name: RulesText
+  m_Name: AuthorPannelText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1906,7 +1906,7 @@ GameObject:
   - component: {fileID: 864291671}
   - component: {fileID: 864291670}
   m_Layer: 5
-  m_Name: BackButtonText
+  m_Name: RuleBackButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2223,7 +2223,7 @@ GameObject:
   - component: {fileID: 1036677790}
   - component: {fileID: 1036677789}
   m_Layer: 5
-  m_Name: BackText
+  m_Name: CharacterSelectBackText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2380,7 +2380,7 @@ GameObject:
   - component: {fileID: 1083553789}
   - component: {fileID: 1083553788}
   m_Layer: 5
-  m_Name: NextText
+  m_Name: NextButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2606,7 +2606,7 @@ GameObject:
   - component: {fileID: 1117305526}
   - component: {fileID: 1117305525}
   m_Layer: 5
-  m_Name: RulesText
+  m_Name: RulesButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2687,7 +2687,7 @@ GameObject:
   - component: {fileID: 1244512408}
   - component: {fileID: 1244512407}
   m_Layer: 5
-  m_Name: 3Button
+  m_Name: 3CharacterButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2912,7 +2912,7 @@ GameObject:
   - component: {fileID: 1355296810}
   - component: {fileID: 1355296809}
   m_Layer: 5
-  m_Name: 2Button
+  m_Name: 2CharacterButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3093,7 +3093,7 @@ GameObject:
   - component: {fileID: 1364990265}
   - component: {fileID: 1364990264}
   m_Layer: 5
-  m_Name: 1CharacterText
+  m_Name: 1CharacterButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3173,7 +3173,7 @@ GameObject:
   - component: {fileID: 1509494908}
   - component: {fileID: 1509494907}
   m_Layer: 5
-  m_Name: GameTitleText
+  m_Name: GameTitlePanelText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3196,7 +3196,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -28}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 420, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1509494907
@@ -3221,7 +3221,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 64
+    m_FontSize: 53
     m_FontStyle: 3
     m_BestFit: 0
     m_MinSize: 0
@@ -3232,7 +3232,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: GAME TITLE
+  m_Text: 'CENTURION
+
+    REVENGES'
 --- !u!222 &1509494908
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3529,7 +3531,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -200}
+  m_AnchoredPosition: {x: 0, y: -160}
   m_SizeDelta: {x: 640, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1735222925
