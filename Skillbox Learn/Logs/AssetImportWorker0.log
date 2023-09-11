@@ -2,7 +2,7 @@ Unity Editor version:    2021.3.8f1 (b30333d56e81)
 Branch:                  2021.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 13.5.1 (Build 22G90)
+macOS version:           Version 13.5.2 (Build 22G91)
 Darwin version:          22.6.0
 Architecture:            x86_64
 Running under Rosetta:   NO
@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/perspectea/Documents/GitHub/Skillbox/Skillbox Learn
+/Users/perspectea/Documents/GitHub/Skillbox/Skillbox_perspectea/Skillbox Learn
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60479
-Successfully changed project path to: /Users/perspectea/Documents/GitHub/Skillbox/Skillbox Learn
-/Users/perspectea/Documents/GitHub/Skillbox/Skillbox Learn
+49241
+Successfully changed project path to: /Users/perspectea/Documents/GitHub/Skillbox/Skillbox_perspectea/Skillbox Learn
+/Users/perspectea/Documents/GitHub/Skillbox/Skillbox_perspectea/Skillbox Learn
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/perspectea/Documents/GitHub/Skillbo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 108.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 137.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/perspectea/Documents/GitHub/Skillbox/Skillbox Learn/Assets
+[Subsystems] Discovering subsystems at path /Users/perspectea/Documents/GitHub/Skillbox/Skillbox_perspectea/Skillbox Learn/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Color LCD preferred device: AMD Radeon Pro 555 (high power)
 Metal devices available: 2
@@ -70,82 +70,82 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56659
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.8f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004090 seconds.
+Registered in 0.001602 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 135.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 153.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.077 seconds
+- Completed reload, in  1.159 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1078ms)
-		BeginReloadAssembly (172ms)
+	ReloadAssembly (1160ms)
+		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (748ms)
-			LoadAssemblies (174ms)
+		EndReloadAssembly (852ms)
+			LoadAssemblies (104ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (168ms)
+			SetupTypeCache (207ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (439ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (509ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (136ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (226ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
+				RefreshPlugins (153ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004184 seconds.
+Registered in 0.004490 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/perspectea/Documents/GitHub/Skillbox/Skillbox Learn/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/perspectea/Documents/GitHub/Skillbox/Skillbox Learn/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/perspectea/Documents/GitHub/Skillbox/Skillbox_perspectea/Skillbox Learn/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/perspectea/Documents/GitHub/Skillbox/Skillbox_perspectea/Skillbox Learn/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.532 seconds
+- Completed reload, in  1.770 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1533ms)
-		BeginReloadAssembly (138ms)
+	ReloadAssembly (1772ms)
+		BeginReloadAssembly (182ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (1234ms)
-			LoadAssemblies (152ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1394ms)
+			LoadAssemblies (113ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (423ms)
+			SetupTypeCache (491ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (510ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (613ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (347ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (418ms)
 				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -153,10 +153,10 @@ Launching external process: /Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/
 Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
 Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (82.9 KB). Loaded Objects now: 3834.
-Memory consumption went from 87.4 MB to 87.4 MB.
-Total: 4.221286 ms (FindLiveObjects: 0.488964 ms CreateObjectMapping: 0.240433 ms MarkObjects: 3.357377 ms  DeleteObjects: 0.133609 ms)
+Unloading 3378 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (82.7 KB). Loaded Objects now: 3835.
+Memory consumption went from 88.3 MB to 88.2 MB.
+Total: 5.514797 ms (FindLiveObjects: 0.432118 ms CreateObjectMapping: 0.389513 ms MarkObjects: 4.501431 ms  DeleteObjects: 0.188406 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,37 +170,352 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 276531.061709 seconds.
-  path: Assets/Sprites
-  artifactKey: Guid(1b553c2fab7f841b885b782e0b5d79c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites using Guid(1b553c2fab7f841b885b782e0b5d79c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7458d01cfd467bbf04cde09bde6258d1') in 0.008466 seconds 
+  Time since last request: 839.566313 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/SciFi_Skin.guiskin
+  artifactKey: Guid(9705c0e7595e14d42bcd9e476468d8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/SciFi_Skin.guiskin using Guid(9705c0e7595e14d42bcd9e476468d8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0414d9964de6d7b89d9449b091d5afd6') in 2.359887 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.173356 seconds.
-  path: Assets/Sprites/UI
-  artifactKey: Guid(dbb1e8e2107e4418385f6f2250cafe00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI using Guid(dbb1e8e2107e4418385f6f2250cafe00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fd7057a5e11b0f37abdeadefd96f3d') in 0.001552 seconds 
+  Time since last request: 0.000115 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/bars/progress_bar.png
+  artifactKey: Guid(be40ff228ca528248b495d5025a1e327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/bars/progress_bar.png using Guid(be40ff228ca528248b495d5025a1e327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b92043aeca8cbadba38397eb1d87fac') in 0.620461 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.549153 seconds.
-  path: Assets/Sprites/UI/Characters
-  artifactKey: Guid(35472311317554364b205bb67c4c593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI/Characters using Guid(35472311317554364b205bb67c4c593c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa77ae47f7e3f6bb4d0d0a12c43318a') in 0.003684 seconds 
+  Time since last request: 0.038153 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/arrows
+  artifactKey: Guid(96761de9252a2be45b984c64f3307bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/arrows using Guid(96761de9252a2be45b984c64f3307bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b1da4733a26c450cf820b825e29096') in 0.001171 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.311409 seconds.
+  Time since last request: 0.107785 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/arrows/arrow1_left.png
+  artifactKey: Guid(9871e4d5e19cea6419d057b79ce1a1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/arrows/arrow1_left.png using Guid(9871e4d5e19cea6419d057b79ce1a1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a303eac51a43d6da0a186c63c4f8462b') in 0.026110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/arrows/arrow_left.png
+  artifactKey: Guid(6d7b5d72581e8ca48b333e83a25d1514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/arrows/arrow_left.png using Guid(6d7b5d72581e8ca48b333e83a25d1514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b12d897ae073914f4a1814555e3a74') in 0.019959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/arrows/back_arrow.png
+  artifactKey: Guid(a9ef9e2f50f97a84bbd269b5f7cc5ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/arrows/back_arrow.png using Guid(a9ef9e2f50f97a84bbd269b5f7cc5ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24500474aa6818552684984882ed84a3') in 0.014661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/arrows/long_arrow_left.png
+  artifactKey: Guid(5d663ef25d3d5514a8d099e72353244b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Bonus_Assets/arrows/long_arrow_left.png using Guid(5d663ef25d3d5514a8d099e72353244b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba39a4631d5aad5fd1408359d5f5f82') in 0.022748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.834445 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets
+  artifactKey: Guid(dafdb930eb2c9ce49b62ad74b5183028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets using Guid(dafdb930eb2c9ce49b62ad74b5183028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb38440a3d172a8accd4e7ed680ccb0') in 0.006350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.734004 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/window
+  artifactKey: Guid(856900e36ea72f24a9896ec2db21a71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/window using Guid(856900e36ea72f24a9896ec2db21a71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ceef1da887c3a9e59132ed0a474cf78') in 0.006196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.151035 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/window/window_transparent.png
+  artifactKey: Guid(06edc4e02f9c48647adfed0a778cb8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/window/window_transparent.png using Guid(06edc4e02f9c48647adfed0a778cb8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0863f198ed03bff50bfb40757564241e') in 0.021016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 110.223885 seconds.
   path: Assets/Sprites/UI/Characters/4.png
   artifactKey: Guid(b275856aac7614c1191aff0ef35fb26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI/Characters/4.png using Guid(b275856aac7614c1191aff0ef35fb26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2a05365cad469794fbce7218e8a383') in 1.661076 seconds 
+Start importing Assets/Sprites/UI/Characters/4.png using Guid(b275856aac7614c1191aff0ef35fb26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4bc6bcd4d978adf530b2ac5ee8add3e') in 0.499803 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.420236 seconds.
-  path: Assets/Sprites/UI/Characters/Boss1.png
-  artifactKey: Guid(1ab9a8cba26544c63a71a8509889fc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI/Characters/Boss1.png using Guid(1ab9a8cba26544c63a71a8509889fc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a43a6ef77799ab2a5508200890741b') in 0.029858 seconds 
+  Time since last request: 47.752926 seconds.
+  path: Assets/Sprites/UI/Background
+  artifactKey: Guid(f30da4abe55a542ee8cf8537825d8627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Background using Guid(f30da4abe55a542ee8cf8537825d8627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f1c537dd3fbb5ef704433e31e0963a') in 0.001387 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.125798 seconds.
-  path: Assets/Sprites/UI/Characters/Light_1.1.png
-  artifactKey: Guid(c20f4466dda5542359b7d77827f82947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI/Characters/Light_1.1.png using Guid(c20f4466dda5542359b7d77827f82947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01142094db5c9b91f279cc3dc47ff465') in 0.032331 seconds 
+  Time since last request: 48.726051 seconds.
+  path: Assets/Sprites/UI/Background/2.png
+  artifactKey: Guid(4386810898a8b4c10b87c05aa559efff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Background/2.png using Guid(4386810898a8b4c10b87c05aa559efff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d75449612a95505268510c0f315bc4a') in 0.020598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.046058 seconds.
+  path: Assets/Sprites/UI/Background/2.png
+  artifactKey: Guid(4386810898a8b4c10b87c05aa559efff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Background/2.png using Guid(4386810898a8b4c10b87c05aa559efff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a3881739c89d102da2b812f269d157') in 0.347208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 612.712959 seconds.
+  path: Assets/Sci-Fi UI/Demo_Assets
+  artifactKey: Guid(ff7d801fa96308741bce240131b16a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/Demo_Assets using Guid(ff7d801fa96308741bce240131b16a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fded252222d051d7f475816a629af9e1') in 0.006841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.006263 seconds.
+  path: Assets/Sci-Fi UI/Demo_Assets/scripts
+  artifactKey: Guid(8c7dc059ef53b1f4f841f561138c81b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/Demo_Assets/scripts using Guid(8c7dc059ef53b1f4f841f561138c81b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6ed9450aaea4428029940056e446c3') in 0.001169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.756562 seconds.
+  path: Assets/Sci-Fi UI/Demo_Assets/background
+  artifactKey: Guid(73e1f08129ab18d4e98067b118681893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/Demo_Assets/background using Guid(73e1f08129ab18d4e98067b118681893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219277ded9fc829f77636ce0c87205dc') in 0.003304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.000968 seconds.
+  path: Assets/Sci-Fi UI/Demo_Assets/background/Space.tga.jpg
+  artifactKey: Guid(b76b8b216adf64f4bbdb78f7977f0310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/Demo_Assets/background/Space.tga.jpg using Guid(b76b8b216adf64f4bbdb78f7977f0310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5520d382d748fffdaacb8b343528436') in 1.894131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.684289 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/window/window_transparent1.png
+  artifactKey: Guid(78e3daf76621d66448e594d6993adbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/window/window_transparent1.png using Guid(78e3daf76621d66448e594d6993adbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3bc206b08bc2ca2ac1e5e04812fb6b') in 0.098056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 113.249020 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/buttons
+  artifactKey: Guid(7916cd3fc7621524ab888d9cae92c327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/buttons using Guid(7916cd3fc7621524ab888d9cae92c327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0dba355aa2dd8f29feb274332549fd') in 0.006315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082208 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/buttons/bullets.png
+  artifactKey: Guid(fcab35236e33438448805a9211b0cc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/buttons/bullets.png using Guid(fcab35236e33438448805a9211b0cc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4dc05bf0199a9240e0e24e2385958f') in 0.017149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/buttons/rocket.png
+  artifactKey: Guid(3b8db7241fc8ff54e9dea6fc64cfd7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/buttons/rocket.png using Guid(3b8db7241fc8ff54e9dea6fc64cfd7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd66716014c3de7b9a2cb88b83eed524') in 0.016373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/buttons/button_pushed.png
+  artifactKey: Guid(03cbfa7fbded80a479f24add4a997757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/buttons/button_pushed.png using Guid(03cbfa7fbded80a479f24add4a997757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44beb820a2f32d096535ab96c779b7ad') in 0.022523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.357594 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/buttons/button1.png
+  artifactKey: Guid(8a6f536f4b2392f40afb62df609f6e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/buttons/button1.png using Guid(8a6f536f4b2392f40afb62df609f6e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64da631938b2f621dbd623d44d9de91d') in 0.061639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.488503 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/font
+  artifactKey: Guid(12b4ebcbc4e1ee143bb0b1262a025116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/font using Guid(12b4ebcbc4e1ee143bb0b1262a025116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc6f6a6e6b2af7cc171817418a5cfaa') in 0.006320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.120770 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/font/zekton free.ttf
+  artifactKey: Guid(8297a2bf97dbbba468bd2518d003a876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/font/zekton free.ttf using Guid(8297a2bf97dbbba468bd2518d003a876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f244e89b211114f14fa01592e8ec8e') in 3.534652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.233156 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/joystick
+  artifactKey: Guid(6fcce8e8873ca23408caf59cc6fd8e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/joystick using Guid(6fcce8e8873ca23408caf59cc6fd8e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fb71e3fade3ed18abca535e09db55c') in 0.006369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.103334 seconds.
+  path: Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/joystick/joystick.png
+  artifactKey: Guid(8a732e57806777846a90ceb6def85c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi UI/_SciFi_GUISkin_/Skin_Assets/joystick/joystick.png using Guid(8a732e57806777846a90ceb6def85c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70bc4775713946126c5f70596cb62bd7') in 0.019171 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004783 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/perspectea/Documents/GitHub/Skillbox/Skillbox_perspectea/Skillbox Learn/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/perspectea/Documents/GitHub/Skillbox/Skillbox_perspectea/Skillbox Learn/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.873 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1873ms)
+		BeginReloadAssembly (216ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (1493ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (495ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (720ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (508ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (0.6 MB). Loaded Objects now: 3898.
+Memory consumption went from 392.2 MB to 391.6 MB.
+Total: 6.188728 ms (FindLiveObjects: 0.383296 ms CreateObjectMapping: 0.391352 ms MarkObjects: 4.831961 ms  DeleteObjects: 0.580819 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004585 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/perspectea/Documents/GitHub/Skillbox/Skillbox_perspectea/Skillbox Learn/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/perspectea/Documents/GitHub/Skillbox/Skillbox_perspectea/Skillbox Learn/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.860 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1861ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (1470ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (476ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (122ms)
+			SetupLoadedEditorAssemblies (646ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (454ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (0.6 MB). Loaded Objects now: 3901.
+Memory consumption went from 395.8 MB to 395.2 MB.
+Total: 7.332651 ms (FindLiveObjects: 0.427771 ms CreateObjectMapping: 0.453886 ms MarkObjects: 5.824002 ms  DeleteObjects: 0.625265 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2828.313119 seconds.
+  path: Assets/Sprites/UI/Characters/Shooter_1.png
+  artifactKey: Guid(03fa66da56c4b4ef993032a9ca78a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Characters/Shooter_1.png using Guid(03fa66da56c4b4ef993032a9ca78a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6173c5d82b4b5e9c13e59e7446476e75') in 0.108068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.650473 seconds.
+  path: Assets/Sprites/UI/Characters/Shooter_1.png
+  artifactKey: Guid(03fa66da56c4b4ef993032a9ca78a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Characters/Shooter_1.png using Guid(03fa66da56c4b4ef993032a9ca78a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b30c59cb094439a4f9bf1d6f345bf93') in 0.342999 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005176 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/perspectea/Documents/GitHub/Skillbox/Skillbox_perspectea/Skillbox Learn/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/perspectea/Documents/GitHub/Skillbox/Skillbox_perspectea/Skillbox Learn/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.936 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1938ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (1567ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (481ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (113ms)
+			SetupLoadedEditorAssemblies (704ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (480ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (0.6 MB). Loaded Objects now: 3908.
+Memory consumption went from 399.7 MB to 399.1 MB.
+Total: 5.389410 ms (FindLiveObjects: 0.350400 ms CreateObjectMapping: 0.250314 ms MarkObjects: 4.287810 ms  DeleteObjects: 0.499617 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
