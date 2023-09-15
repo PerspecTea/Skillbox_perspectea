@@ -1,15 +1,19 @@
 ﻿<Properties StartupConfiguration="{6D676BCB-2696-9CA8-1AAA-60C1529A5322}|">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Calculator.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DZ4/Calculator.cs">
     <Files>
-      <File FileName="Assets/Calculator.cs" Line="8" Column="51" />
+      <File FileName="Assets/Scripts/DZ4/Calculator.cs" Line="18" Column="44" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Skillbox Learn" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Calculator.cs" selected="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="DZ4" expanded="True">
+                  <Node name="Calculator.cs" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>

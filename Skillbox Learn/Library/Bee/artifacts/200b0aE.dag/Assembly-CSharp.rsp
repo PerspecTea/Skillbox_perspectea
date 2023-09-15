@@ -353,6 +353,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Sci-Fi UI/Demo_Assets/scripts/GUI_Demo.cs"
 "Assets/Scripts/DZ4/Calculator.cs"
+"Assets/Scripts/DZ4/Comparer.cs"
 -langversion:9.0
 
 /deterministic
